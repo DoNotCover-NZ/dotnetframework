@@ -16,6 +16,7 @@ namespace recruit_dotnetframework
 
             // e.g. container.RegisterType<ITestService, TestService>();
             container.RegisterType<ICreditCardRepository, CreditCardRepository>();
+            container.RegisterType<ICreditCardService, CreditCardService>();
 
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }

@@ -181,14 +181,17 @@
     <Compile Include="Controllers\CreditCardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="DTOs\CreditCardRequest.cs" />
+    <Compile Include="DTOs\CreditCardResponse.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CreditCard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\CreditCardRepository.cs" />
+    <Compile Include="Repositories\CreditCardRepository.cs" />
     <Compile Include="Services\CreditCardService.cs" />
-    <Compile Include="Services\ICreditCardRepository.cs" />
+    <Compile Include="Repositories\ICreditCardRepository.cs" />
+    <Compile Include="Services\ICreditCardService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />

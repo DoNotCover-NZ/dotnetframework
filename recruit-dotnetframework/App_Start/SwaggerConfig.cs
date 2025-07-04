@@ -1,8 +1,6 @@
 using recruit_dotnetframework;
 using Swashbuckle.Application;
-using System.Web;
 using System.Web.Http;
-using WebActivatorEx;
 
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
